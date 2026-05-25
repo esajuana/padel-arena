@@ -8,7 +8,7 @@
     style="
         background:
         linear-gradient(rgba(0,0,0,0.65), rgba(0,0,0,0.65)),
-        url('{{ asset('storage/image/img-header.jpg') }}');
+        url('{{ asset('storage/image/image-header.jpg') }}');
         background-size: cover;
         background-position: center;
         min-height: 90vh;
@@ -289,7 +289,7 @@
             <div class="col-lg-6 mb-4">
 
                 <img
-                    src="{{ asset('storage/image/img-header.jpg') }}"
+                    src="{{ asset('storage/image/image-header.jpg') }}"
                     class="img-fluid rounded-4 shadow"
                 >
 

@@ -278,4 +278,40 @@
 
 </section>
 
+<!-- FOOTER -->
+<footer class="bg-black text-white py-4">
+
+    <div class="container">
+
+        <div class="row align-items-center">
+
+            <div class="col-md-6">
+
+                <h5 class="fw-bold">
+                    Padel Arena
+                </h5>
+
+                <p class="text-secondary mb-0">
+
+                    Sistem booking lapangan padel modern.
+
+                </p>
+
+            </div>
+
+            <div class="col-md-6 text-md-end mt-3 mt-md-0">
+
+                <small class="text-secondary">
+                    © {{ date('Y') }} Padel Arena.
+                    All rights reserved.
+                </small>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</footer>
+
 @endsection
